@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Verhalen op reis</title>
+    <link rel="stylesheet" href="css/style2.css" type="text/css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+
+                <li>
+                    <a href="#">Verder lezen</a>
+                </li>
+                <li>
+                    <a href="#">Favorieten</a>
+                </li>
+                <li>
+                    <a href="home.html">
+                        <img id='logo' src="afbeeldingen/WOW_logo_RGB.jpg" alt="logo wow air">
+                    </a>
+                </li>
+                <li>
+                    <a href="#">Gedownload</a>
+                </li>
+                <li>
+                    <a href="#">Profiel</a>
+                </li>
+            </ul>
+            <!--            <form action="#" id="zoek">-->
+            <!--                <input type="search" name="search">-->
+            <!--                <input type="submit" value="Zoeken">-->
+            <!--            </form>-->
+        </nav>
+    </header>
+
+    <form action="#">
+        <!--    hier moet het filterding komen-->
+        <fieldset>
+            <legend>Categorie</legend>
+            <label for="spanning">
+              <input type="checkbox" name="categorie" id="spanning" value="Spanning">
+               Spanning
+            </label>
+            <label for="romantiek">
+               <input type="checkbox" name="categorie" id="romantiek" value="Romantiek">
+               Romantiek
+            </label>
+            <label for="avontuur">
+               <input type="checkbox" name="categorie" id="avontuur" value="Avontuur">
+               Avontuur
+            </label>
+            <label for="fantasy">
+               <input type="checkbox" name="categorie" id="fantasy" value="Fantasy">
+               Fantasy
+            </label>
+            <label for="leesduurF" id="slider">Leesduur
+                  <input type="range" id="leesduurF" name="volume"
+         min="3" max="30">
+            </label>
+            <!--           ik wil hier een sleep balkje om een tijd aan te kunnen gevenmet minimale en maximale tekst er onder-->
+        </fieldset>
+
+        <fieldset id="sorteer">
+            <legend>Sorteer op</legend>
+
+            <label for="beoordeling">
+            <input type="radio" name="sorteer" id="beoordeling" value="Beoordeling">
+            Beoordeling
+            </label>
+
+
+            <label for="alfabetisch">
+            <input type="radio" name="sorteer" id="alfabetisch" value="Alfabetisch">
+            Alfabetisch
+            </label>
+
+
+            <label for="leesduurS">
+            <input type="radio" name="sorteer" id="leesduurS" value="Leesduur">
+            Leesduur
+            </label>
+
+
+        </fieldset>
+        <button type="submit">ZOEKEN</button>
+
+    </form>
+
+    <section>
+        <h1>Aanbevolen voor jou</h1>
+        <article>
+            <img class="artikel" src="afbeeldingen/lezen.jpg" alt="verhaal bij tekst">
+            <h2>Alwetende verteller</h2>
+            <p>Kijk, daar gaat Max J. Molovich. Hij is net uit de bus gestapt en loopt nu achter een gifgroene kinderwagen waarin zijn zoon ligt te slapen. Zie ‘m daar toch dapper voortstappen over het stationsplein van Amsterdam...
+            </p>
+            <h3>± 15 minuten</h3>
+            <img class="vijf" src="icons/star%20(2).svg" alt="lege ster">
+            <img class="ster" src="icons/star%20(1).svg" alt="vol ster">
+            <img class="ster" src="icons/star%20(1).svg" alt="vol ster">
+            <img class="ster" src="icons/star%20(1).svg" alt="vol ster">
+            <img class="ster" src="icons/star%20(1).svg" alt="vol ster">
+
+        </article>
+
+
+    </section>
+
+
+</body>
+
+</html>

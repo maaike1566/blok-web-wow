@@ -1,0 +1,178 @@
+body {
+    max-width: 100%;
+    margin: 0;
+    border: 6px solid #9E1981;
+    padding: 0.8em;
+    padding-top: 0;
+    font-family: sans-serif;
+    font-size: 1em;
+}
+
+/*header*/
+header {
+    /*    position: fixed;*/
+    width: 100%;
+    height: 2.8em;
+    border-bottom: 1px solid black;
+    padding: 0;
+    margin: 0;
+    display:flex;
+    padding-bottom: 0.5em;
+}
+
+nav {
+    width: 100%;
+    font-size: 0.7em;
+}
+
+ul {
+    padding: 0;
+}
+
+li {
+    display: inline;
+    text-decoration: none;
+    margin: 2% 2% 5% 2%;
+    list-style: none;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    list-style: none;
+}
+
+img {
+    width: 10%;
+}
+
+/*Formulier*/
+form {
+    width: 90%;
+    padding: 5%;
+    border: 1px solid black;
+    margin: auto;
+    margin-top: 2em;
+}
+
+fieldset {
+    /*    border: 1px solid black ;*/
+    border: none;
+    padding:  0.3em 0;
+}
+
+legend {
+    font-size: 1.3em;
+    margin-bottom: 0.3em;
+}
+
+
+[type="checkbox"] {
+    margin-right: 0.7em;
+    padding: 1em;
+}
+
+label {
+    display: block;
+    margin-bottom: 0.8em;
+    cursor: pointer;
+    font-size: 1em;
+    transition: 250ms;
+}
+
+label:hover,
+label:focus {
+    font-weight: bold;
+}
+
+input [type="range"] {
+    margin: 0.1em;
+    display: block;
+    width: 80%;
+}
+
+[id="slider"] {
+    font-size: 1.3em;
+    margin-top: 1em;
+}
+
+[id="slider"]:hover {
+    font-weight: normal;
+}
+
+button[type="submit"] {
+    font-size: 1em;
+    color: white;
+    padding: 0.4em 1em;
+    border: 0.1em solid #9E1981;
+    background: #9E1981;
+    transition: all 500ms;
+    margin: auto;
+}
+
+button:hover,
+button:focus {
+    border: 0.1em solid #9E1981;
+    background: white;
+    color: #9E1981;
+    transition: all 500ms;
+}
+
+/*section*/
+article {
+    border: 1px solid grey;
+    width: 90%;
+    font-size: 1em;
+    padding: 5%;
+    margin: auto;
+    background-color: #FAFAFA;
+}
+
+h1 {
+    font-size: 1.2em;
+    margin-left: 0;
+    padding-right: auto;
+    font-weight: 600;
+}
+
+h2 {
+    font-size: 1.3em;
+    color: #9E1981;
+    margin-bottom: 0;
+    margin-top: 0.3em;
+    font-weight: 500;
+}
+
+h3 {
+    margin: auto;
+    font-size: 0.8em;
+    font-family: inherit;
+    color: #9E1981;
+    width: 30%;
+    display: inline;
+}
+
+img[class="artikel"] {
+    width: 100%;
+    border: 0.5px solid grey;
+}
+
+img[class="vijf"] {
+    float: right;
+    margin: 0 0 0.7em 0.2em;
+    width: 1em;
+}
+
+img[class="ster"] {
+    float: right;
+    margin: 0 0 0.7em 0.2em;
+    width: 1em;
+}
+
+p {
+    font-size: 0.8em;
+    margin-top: 0;
+}
+
+
+
