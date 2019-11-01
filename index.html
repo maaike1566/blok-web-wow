@@ -6,11 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Verhalen op reis</title>
     <link rel="stylesheet" href="css/style.css" type="text/css">
+
 </head>
 
 <body>
+   <script src="JS/javascript.js"></script>
     <header>
-       <h1>Verhalen voor op reis</h1>
+        <h1>Verhalen voor op reis</h1>
         <nav>
             <ul>
 
@@ -21,9 +23,9 @@
                     <a href="#">Favorieten</a>
                 </li>
                 <li>
-<!--                    <a href="home.html">-->
-                        <img id='logo' src="afbeeldingen/WOW_logo_RGB.jpg" alt="logo wow air">
-<!--                    </a>-->
+                    <!--                    <a href="home.html">-->
+                    <img id='logo' src="afbeeldingen/WOW_logo_RGB.jpg" alt="logo wow air">
+                    <!--                    </a>-->
                 </li>
                 <li>
                     <a href="#">Gedownload</a>
@@ -32,13 +34,12 @@
                     <a href="#">Profiel</a>
                 </li>
             </ul>
-            <!--            <form action="#" id="zoek">-->
-            <!--                <input type="search" name="search">-->
-            <!--                <input type="submit" value="Zoeken">-->
-            <!--            </form>-->
         </nav>
     </header>
-
+      <form action="#" id="zoek">
+                <input id="zoekbalk" type="search" name="search" onfocus="changeColor()" onblur="resetColor()">
+                <input id="knop" type="submit" value="Zoeken">
+            </form>
     <form action="#">
         <!--    hier moet het filterding komen-->
         <fieldset>
@@ -98,7 +99,7 @@
         <h2>Aanbevolen voor jou</h2>
 
         <article id="nul">
-               <a href="verhaalpagina.html">
+            <a href="verhaalpagina.html">
                 <img class="artikel" src="afbeeldingen/lezen.jpg" alt="verhaal bij tekst">
                 <h3>Alwetende verteller</h3>
 
@@ -122,10 +123,10 @@
     </section>
 
     <main id="all-stories">
-       <h2 id="alle verhalen">Alle verhalen</h2>
+        <h2 id="alle verhalen">Alle verhalen</h2>
         <article id="een">
             <img class="artikel" src="afbeeldingen/lezen.jpg" alt="verhaal bij tekst">
-                <h3>Alwetende verteller</h3>
+            <h3>Alwetende verteller</h3>
 
 
             <p>Kijk, daar gaat Max J. Molovich. Hij is net uit de bus gestapt en loopt nu achter een gifgroene kinderwagen waarin zijn zoon ligt te slapen. Zie ‘m daar toch dapper voortstappen over het stationsplein van Amsterdam...</p>
@@ -153,7 +154,7 @@
         </article>
         <article id="twee">
             <img class="artikel" src="afbeeldingen/lezen.jpg" alt="verhaal bij tekst">
-                <h3>Alwetende verteller</h3>
+            <h3>Alwetende verteller</h3>
 
 
             <p>Kijk, daar gaat Max J. Molovich. Hij is net uit de bus gestapt en loopt nu achter een gifgroene kinderwagen waarin zijn zoon ligt te slapen. Zie ‘m daar toch dapper voortstappen over het stationsplein van Amsterdam...</p>
@@ -181,7 +182,7 @@
         </article>
         <article id="drie">
             <img class="artikel" src="afbeeldingen/lezen.jpg" alt="verhaal bij tekst">
-                <h3>Alwetende verteller</h3>
+            <h3>Alwetende verteller</h3>
 
 
             <p>Kijk, daar gaat Max J. Molovich. Hij is net uit de bus gestapt en loopt nu achter een gifgroene kinderwagen waarin zijn zoon ligt te slapen. Zie ‘m daar toch dapper voortstappen over het stationsplein van Amsterdam...</p>
@@ -209,7 +210,7 @@
         </article>
         <article id="vier">
             <img class="artikel" src="afbeeldingen/lezen.jpg" alt="verhaal bij tekst">
-                <h3>Alwetende verteller</h3>
+            <h3>Alwetende verteller</h3>
 
 
             <p>Kijk, daar gaat Max J. Molovich. Hij is net uit de bus gestapt en loopt nu achter een gifgroene kinderwagen waarin zijn zoon ligt te slapen. Zie ‘m daar toch dapper voortstappen over het stationsplein van Amsterdam...</p>
@@ -237,7 +238,7 @@
         </article>
         <article id="vijf">
             <img class="artikel" src="afbeeldingen/lezen.jpg" alt="verhaal bij tekst">
-                <h3>Alwetende verteller</h3>
+            <h3>Alwetende verteller</h3>
 
 
             <p>Kijk, daar gaat Max J. Molovich. Hij is net uit de bus gestapt en loopt nu achter een gifgroene kinderwagen waarin zijn zoon ligt te slapen. Zie ‘m daar toch dapper voortstappen over het stationsplein van Amsterdam...</p>
@@ -265,7 +266,7 @@
         </article>
         <article id="zes">
             <img class="artikel" src="afbeeldingen/lezen.jpg" alt="verhaal bij tekst">
-                <h3>Alwetende verteller</h3>
+            <h3>Alwetende verteller</h3>
 
 
             <p>Kijk, daar gaat Max J. Molovich. Hij is net uit de bus gestapt en loopt nu achter een gifgroene kinderwagen waarin zijn zoon ligt te slapen. Zie ‘m daar toch dapper voortstappen over het stationsplein van Amsterdam...</p>
@@ -282,7 +283,7 @@
             </footer>
         </article>
 
-<!--        <button>Meer verhalen</button>-->
+        <!--        <button>Meer verhalen</button>-->
     </main>
 
 

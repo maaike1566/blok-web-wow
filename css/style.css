@@ -1,3 +1,12 @@
+.knopActive {
+    background-color: #9E1981;
+
+}
+
+.knop {
+    background-color: white;
+}
+
 body {
     max-width: 100%;
     margin: 0;
@@ -69,7 +78,19 @@ form {
     padding: 5%;
     border: 1px solid black;
     margin: auto;
-    margin-top: 2em;
+    margin-top: 0;
+}
+form[id="zoek"]{
+    margin-top: 0.5em;
+    margin-bottom: 0;
+}
+input[type="search"]{
+    width:50%;
+    border: 1px solid black;
+}
+input[value="Zoeken"]{
+    width: 25%;
+    border: 1px solid black;
 }
 
 fieldset {
@@ -331,6 +352,10 @@ img[alt="tabletverhaal"] {
         margin-right: 0;
         grid-column: 1/2;
     }
+    form[id="zoek"]{
+    margin-top: 1em;
+    margin-bottom: 0;
+}
 
     fieldset {
         border: none;
@@ -522,6 +547,10 @@ img[alt="tabletverhaal"] {
         margin-left: 0;
         grid-column: 1/2;
     }
+    form[id="zoek"]{
+    margin-top: 9em;
+    margin-bottom: 0;
+}
     [id="recommended"] {
         grid-column: 3/6;
     }
@@ -601,7 +630,7 @@ img[alt="tabletverhaal"] {
         margin-top: 1em;
     }
       [id="titel"] {
-        margin-left: 2em;
+        margin-left: 6em;
         font-size: 3.5em;
     }
 
