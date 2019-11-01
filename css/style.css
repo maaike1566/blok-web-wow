@@ -87,10 +87,12 @@ form[id="zoek"]{
 input[type="search"]{
     width:50%;
     border: 1px solid black;
+    height: 2em;
 }
 input[value="Zoeken"]{
-    width: 25%;
+    width: 30%;
     border: 1px solid black;
+    height: 2em
 }
 
 fieldset {
@@ -551,6 +553,13 @@ img[alt="tabletverhaal"] {
     margin-top: 9em;
     margin-bottom: 0;
 }
+    input[id="zoekbalk"]{
+        height: 4em;
+    }
+
+    input[value="Zoeken"]{
+        height: 4em;
+    }
     [id="recommended"] {
         grid-column: 3/6;
     }
