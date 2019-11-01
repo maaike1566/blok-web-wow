@@ -80,16 +80,19 @@ form {
     margin: auto;
     margin-top: 0;
 }
-form[id="zoek"]{
+
+form[id="zoek"] {
     margin-top: 0.5em;
     margin-bottom: 0;
 }
-input[type="search"]{
-    width:50%;
+
+input[type="search"] {
+    width: 50%;
     border: 1px solid black;
     height: 2em;
 }
-input[value="Zoeken"]{
+
+input[value="Zoeken"] {
     width: 30%;
     border: 1px solid black;
     height: 2em
@@ -141,6 +144,16 @@ input#leesduurF {
     margin-top: 1em;
 }
 
+    img[alt="download"] {
+        height: 2em;
+        width: auto;
+    }
+    button {
+        margin-right: 1.2em;
+        border: none;
+        width: 3em;
+        margin-top: 0.5em;
+    }
 
 button[type="submit"] {
     font-size: 1em;
@@ -150,15 +163,32 @@ button[type="submit"] {
     background: #9E1981;
     transition: all 0.5s;
     margin: auto;
+    width: 8em;
 }
 
-button:hover,
-button:focus {
+button:hover, button:focus {
+    border: 0;
+}
+
+button[type="submit"]:hover,
+button[type="submit"]:focus {
     border: 0.1em solid #9E1981;
     background: white;
     color: #9E1981;
     transition: all 500ms;
 }
+button[type="search"]:hover, button[type="search"]:focus {
+    border: none;
+}
+
+    img[alt="download"] {
+        height: 2em;
+        width: auto;
+                margin-right: 1.2em;
+        border: none;
+        width: 3em;
+        margin-top: 0.5em;
+    }
 
 /*section*/
 
@@ -343,6 +373,16 @@ img[alt="tabletverhaal"] {
     p {
         font-size: 0.8em;
     }
+
+    img[alt="download"] {
+        height: 3em;
+        width: auto;
+    }
+    button {
+        margin-right: 4em;
+        border: none;
+        width: 5em;
+    }
     /*Formulier*/
     form {
         font-size: 1.2em;
@@ -354,10 +394,10 @@ img[alt="tabletverhaal"] {
         margin-right: 0;
         grid-column: 1/2;
     }
-    form[id="zoek"]{
-    margin-top: 1em;
-    margin-bottom: 0;
-}
+    form[id="zoek"] {
+        margin-top: 1em;
+        margin-bottom: 0;
+    }
 
     fieldset {
         border: none;
@@ -518,7 +558,7 @@ img[alt="tabletverhaal"] {
         font-weight: 800;
         list-style: none;
     }
-        [id="titel"] {
+    [id="titel"] {
         margin-left: 2em;
     }
 
@@ -527,16 +567,24 @@ img[alt="tabletverhaal"] {
         margin-bottom: 1em;
     }
     img[alt="terug"] {
-    margin: 1em ;
-    float: left;
-    height: 4em;
-    width: 3em;
-}
+        margin: 1em;
+        float: left;
+        height: 4em;
+        width: 3em;
+    }
 
     img {
         height: 110%;
         width: auto;
     }
+    img[alt="download"] {
+        height: 5em;
+    }
+    button {
+        margin-right: 10em;
+        border: none;
+    }
+
 
     /*Formulier*/
     form {
@@ -549,15 +597,15 @@ img[alt="tabletverhaal"] {
         margin-left: 0;
         grid-column: 1/2;
     }
-    form[id="zoek"]{
-    margin-top: 9em;
-    margin-bottom: 0;
-}
-    input[id="zoekbalk"]{
+    form[id="zoek"] {
+        margin-top: 9em;
+        margin-bottom: 0;
+    }
+    input[id="zoekbalk"] {
         height: 4em;
     }
 
-    input[value="Zoeken"]{
+    input[value="Zoeken"] {
         height: 4em;
     }
     [id="recommended"] {
@@ -638,7 +686,7 @@ img[alt="tabletverhaal"] {
         margin: 1%;
         margin-top: 1em;
     }
-      [id="titel"] {
+    [id="titel"] {
         margin-left: 6em;
         font-size: 3.5em;
     }
@@ -669,6 +717,7 @@ img[alt="tabletverhaal"] {
     p {
         font-size: 0;
     }
+
     /*desktop verhaal*/
     img[alt="mobileverhaal"] {
         width: 0;
