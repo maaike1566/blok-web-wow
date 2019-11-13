@@ -199,6 +199,7 @@ button[type="search"]:focus {
 img[alt="download"] {
     height: 4vh;
     width: auto;
+    margin-right: 2%;
 }
 
 /*section*/
@@ -644,7 +645,8 @@ img[alt="tabletverhaal"] {
         width: auto;
     }
     img[alt="download"] {
-        height: 3em;
+        height: 80%;
+        margin-right: 2em;
     }
     button {
         margin-right: 10em;
