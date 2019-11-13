@@ -40,14 +40,15 @@
 // }
 //knop.addEventListener('click', downloading, false);
 
-window.onload = function () {
 
+// https://stackoverflow.com/questions/26107125/cannot-read-property-addeventlistener-of-null
+window.onload = function () {
     var button = document.getElementById('download');
 
     function downloading() {
         setTimeout(function () {
             button.src = 'afbeeldingen/done.png';
-        }, 4000);
+        }, 5000);
         button.src = 'afbeeldingen/loading.gif';
     }
 

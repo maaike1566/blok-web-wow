@@ -32,7 +32,7 @@ header {
 }
 
 img[alt="terug"] {
-    margin: 1vh 0 0 2vh;
+    margin: 1vh 0 0 0;
     padding: 0;
     float: right;
     height: 80%;
@@ -155,9 +155,10 @@ input#leesduurF {
     margin-top: 1em;
 }
 
-img[alt="download"] {
+img[id="download"] {
     height: 2em;
     width: auto;
+    margin-right: 4%
 }
 
 button {
@@ -283,6 +284,7 @@ p {
 
 a[href="index.html"] {
     margin-left: 0;
+    width: 10%;
 }
 
 /*mobiel verhaal*/
